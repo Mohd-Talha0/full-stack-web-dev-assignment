@@ -1,0 +1,4 @@
+Tags: A tag in HTML is a basic signature and building block of an element. They are either required to be explicitly closed or they are predefined as self-closing. Example: <p></p> is a ‘p’ tag, and <meta /> is a self-closing ‘meta’ tag. 
+ 
+Elements: It is a type of HTML document component that usually spans from a start tag <p> and terminates on an end tag </p>.
+

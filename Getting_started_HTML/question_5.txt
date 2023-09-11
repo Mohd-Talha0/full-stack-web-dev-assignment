@@ -1,0 +1,1 @@
+The Document Type Declaration referred to as the DOCTYPE declaration, is used to specify the type of document and the version of HTML that the web browser will use to render the document accordingly. 
