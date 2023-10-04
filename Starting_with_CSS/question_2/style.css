@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+}
+
+.card_1{
+    background-color: red;
+    padding: 10px;
+    height: 200px;
+    width: 400px;
+    margin: 10px;
+}
+.card_2{
+    background-color: blue;
+    padding: 10px;
+    height: 200px;
+    width: 400px;
+    margin: 10px;
+    color: aliceblue;
+}
+.card_3{
+    background-color: green;
+    padding: 10px;
+    height: 200px;
+    width: 400px;
+    margin: 10px;
+}

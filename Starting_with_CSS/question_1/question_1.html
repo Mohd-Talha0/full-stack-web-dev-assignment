@@ -1,0 +1,33 @@
+<!-- This document shows different ways to implement the CSS and the heirarchy in which they are rendered on the browser. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Different ways to implement CSS</title>
+    <link rel="stylesheet" href="style.css">  <!-- External CSS implementation --> 
+    
+    <style>    /* internal CSS implementation */       
+        .card_1{
+            background-color: rgb(226, 100, 100); 
+        }
+        .card_2{
+            background-color: rgb(226, 100, 100);
+        }        
+    </style>
+</head>
+<body>
+    <div class="card_1" style="background-color: rgb(121, 121, 228);"> <!--Inline CSS implementation-->
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo molestiae vel, commodi ducimus soluta laudantium iure provident aspernatur ullam totam consequatur ratione ipsa deleniti pariatur reprehenderit, ut nesciunt ipsam dicta amet! Minus, maiores ut! Vero suscipit deleniti dignissimos corporis beatae, quas explicabo odit sit minima, ea esse necessitatibus officia iure?</p>
+    </div>
+    <div class="card_2">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla placeat illo exercitationem voluptatibus, pariatur suscipit doloremque unde sint qui? Perferendis ut delectus doloribus. Minima dolorem error quae ratione, distinctio exercitationem inventore explicabo velit illo iusto voluptatum similique voluptatibus dolorum, ad recusandae, quas qui placeat tempore nobis earum ipsum praesentium sapiente?</p>
+    </div>
+    <div class="card_3">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor ea aperiam voluptas similique dicta commodi pariatur quaerat! A corporis fuga, non ex ipsam qui impedit reprehenderit provident velit ea fugiat repudiandae delectus neque eligendi corrupti labore laborum deleniti unde. Velit beatae voluptatum facilis non quo amet blanditiis, distinctio in aperiam.</p>
+    </div>
+    <div>
+        <p style="font-size: 25px;"><strong>In the above output we can see that the first paragraph has the CSS styling defined by the inline implementation while ignoring the internal and external implementations which shows the heirarchy in the selective rendering of the same. The order is as follows: inline CSS > internal CSS > external CSS.</strong></p>
+    </div>
+</body>
+</html>
