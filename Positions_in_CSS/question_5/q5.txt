@@ -1,0 +1,17 @@
+
+Z-Index:
+
+The `z-index` property is a CSS (Cascading Style Sheets) property that is used to control the stacking order of positioned elements on a web page. In other words, it determines the order in which elements are displayed along the z-axis (depth) of the document.
+
+Here's a brief explanation of how it works:
+
+1. **Stacking Context:**
+   - The `z-index` property only works on elements that have a specified position value other than `static`. For example, you can set an element's position to `relative`, `absolute`, or `fixed`.
+   - The `z-index` property creates a stacking context for the element. Each stacking context is like a separate layer on the z-axis.
+
+2. **Stacking Order:**
+   - Elements with a higher `z-index` value are displayed on top of elements with a lower `z-index` value within the same stacking context.
+   - If two elements have the same `z-index`, the one that comes later in the HTML source order is displayed on top.
+
+3. **Negative Values:**
+   - You can use negative values for `z-index`. Elements with negative `z-index` values are placed below elements with a `z-index` of 0.

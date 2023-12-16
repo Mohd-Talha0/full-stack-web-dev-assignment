@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {text-align: center;}
+        .container{
+            height: 1000px;
+            width: 1000px;
+        }
+        .box{
+            border: 2px solid black;
+            text-align: center;
+            padding: 30px 30px;
+            margin-right: 800px;
+            border-radius: 10px;
+            position: absolute;
+        }
+        .box_card1{
+            background-color: rgb(7, 137, 224);
+            top: 120px;
+            left: 40px;
+        }
+        .box_card2{
+            background-color: rgb(33, 207, 62);
+            top: 150px;
+            left: 60px;
+        }
+        .box_card3{
+            background-color: rgb(204, 201, 42);
+            top: 180px;
+            left: 90px;
+        }
+        .img1,.img2,.img3{
+            height: 170px;
+            width: 140px;
+        }
+
+
+        .box_card1:hover{
+            z-index: 1;
+        }
+        .box_card2:hover{
+            z-index: 1;
+        }
+        .box_card3:hover{
+            z-index: 1;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Hover to Unveil the Pokemon</h1>
+    <div class="container">    
+        <div class="box box_card1">
+            <p><b>Card 1</b></p>
+            <img class="img1" src="https://w0.peakpx.com/wallpaper/998/140/HD-wallpaper-pikachu-pokemon.jpg" alt="Pikachu Image">
+        </div>
+        <div class="box box_card2">
+            <p><b>Card 2</b></p>
+            <img class="img2" src="https://w0.peakpx.com/wallpaper/946/1022/HD-wallpaper-charizard-pokemon.jpg" alt="charizard image">
+        </div>
+        <div class="box box_card3">
+            <p><b>Card 3</b></p>
+            <img class="img3" src="https://static.pokemonpets.com/images/monsters-images-800-800/7-Squirtle.webp" alt="squirtle image">
+        </div>
+    </div> 
+</body>
+</html>
