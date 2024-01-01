@@ -1,0 +1,41 @@
+
+The Flexbox layout model in CSS provides several key properties that play essential roles in defining the layout and alignment of flex containers and their items. Here's an explanation of the roles of the specified properties:
+
+1. **justify-content:**
+   - **Role:** Controls the alignment of items along the main axis (the direction defined by `flex-direction`).
+   - **Values:**
+     - `flex-start`: Items are aligned to the start of the container.
+     - `flex-end`: Items are aligned to the end of the container.
+     - `center`: Items are centered within the container.
+     - `space-between`: Items are evenly distributed with the first item at the start and the last item at the end.
+     - `space-around`: Items are evenly distributed with equal space around them.
+     - `space-evenly`: Items are evenly distributed with equal space around and between them.
+
+2. **align-items:**
+   - **Role:** Controls the alignment of items along the cross axis (perpendicular to the main axis).
+   - **Values:**
+     - `flex-start`: Items are aligned to the start of the container along the cross axis.
+     - `flex-end`: Items are aligned to the end of the container along the cross axis.
+     - `center`: Items are centered within the container along the cross axis.
+     - `baseline`: Items are aligned to the baseline of the container.
+     - `stretch`: Items are stretched to fill the container along the cross axis.
+
+3. **gap:**
+   - **Role:** Specifies the gap between flex items in a flex container.
+   - **Value:** It can take a single value or two values (for row and column gaps, respectively).
+   - **Example:** `gap: 10px;` or `gap: 10px 20px;`
+
+4. **flex-direction:**
+   - **Role:** Defines the direction of the main axis along which the flex items are placed in the flex container.
+   - **Values:**
+     - `row`: Items are placed in the same direction as the text (left to right).
+     - `row-reverse`: Items are placed in the opposite direction (right to left).
+     - `column`: Items are placed from top to bottom.
+     - `column-reverse`: Items are placed from bottom to top.
+
+5. **flex-wrap:**
+   - **Role:** Determines whether flex items are forced onto a single line or can be wrapped onto multiple lines.
+   - **Values:**
+     - `nowrap`: All items are forced onto a single line.
+     - `wrap`: Items wrap onto multiple lines if needed.
+     - `wrap-reverse`: Items wrap onto multiple lines in reverse order.

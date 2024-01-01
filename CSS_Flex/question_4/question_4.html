@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body, p, h2{
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+          }
+
+        .pricing {
+            background-color: rgb(220, 220, 255);
+            width: 70vw;
+            min-height: 60vh;
+            position: relative;
+            top: 100px;
+            left: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+            border: 2px solid black;
+
+        }
+
+        .cards {
+            width: 180px;
+            height: fit-content;
+            background-color: aliceblue;
+            border-radius: 10px;
+            padding: 35px 35px 10px 35px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+        }
+
+        img {
+            width: 25px;
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .card1, .card3 {
+            background-color: aliceblue;
+            color: rgb(9, 9, 48);
+        }
+
+        .card2 {
+            background-color: rgb(9, 9, 48);
+            color: aliceblue;
+        }
+        
+        .plan_fee {
+           margin: 15px 0;
+           font-weight: lighter;
+           font-size: 28px;
+
+        } 
+        button {
+            padding: 10px 20px;
+            margin: 20px auto;
+            border-radius: 25px;
+            border: 1px solid rgba(0, 0, 0, 0);
+            font-size: 15px;
+        }
+        .btn-colored > button {
+            background-color: rgb(9, 9, 48);
+            color: aliceblue;                        
+        }
+        .btn-white > button {
+            color: rgb(9, 9, 48);
+            background-color: aliceblue;
+        }
+        .btn {
+            display: flex;
+            justify-content: center;
+        }
+
+        .benefits {
+            display: flex;
+            align-items: center;
+            margin: 5px 0;
+        }
+       
+    </style>
+</head>
+<body>
+      <div class="pricing">
+         <div class="cards card1">
+            <h2 class="plan_name">Free Plan</h2>
+            <p class="plan_user">For personal</p>
+            <h2 class="plan_fee">$0</h2>
+            <p class="benefits"><span><img src="./dark_icon.png" alt="dark-icon"></span> 1 users</p>
+            <p class="benefits"><span><img src="./dark_icon.png" alt="dark-icon"></span> 4 Web mails</p>
+            <p class="benefits"><span><img src="./dark_icon.png" alt="dark-icon"></span> Responsive Website</p>
+            <p class="benefits"><span><img src="./dark_icon.png" alt="dark-icon"></span> Free SSL</p>
+            <div class="btn btn-colored">
+                <button>Subscribe now</button>
+            </div>            
+         </div>
+         <div class="cards card2">
+            <h2 class="plan_name">Basic Plan</h2>
+            <p class="plan_user">For small business</p>
+            <h2 class="plan_fee">$29</h2>
+            <p class="benefits"><span><img src="./light_icon.png" alt="light-icon"></span> 4 users</p>
+            <p class="benefits"><span><img src="./light_icon.png" alt="light-icon"></span> 10 Web mails</p>
+            <p class="benefits"><span><img src="./light_icon.png" alt="light-icon"></span> Responsive Website</p>
+            <p class="benefits"><span><img src="./light_icon.png" alt="light-icon"></span> Free SSL</p>
+            <div class="btn btn-white">
+                <button>Subscribe now</button>
+            </div> 
+         </div>
+         
+         <div class="cards card3">
+           <h2 class="plan_name">Pro Plan</h2>
+           <p class="plan_user">For enterprise</p>
+           <h2 class="plan_fee">$49</h2>
+           <p class="benefits"><span><img src="./dark_icon.png" alt="dark-icon"></span> Unlimited users</p>
+           <p class="benefits"><span><img src="./dark_icon.png" alt="dark-icon"></span> Unlimited Web mails</p>
+           <p class="benefits"><span><img src="./dark_icon.png" alt="dark-icon"></span> Responsive Website</p>
+           <p class="benefits"><span><img src="./dark_icon.png" alt="dark-icon"></span> Free SSL + SEO</p>
+           <div class="btn btn-colored">
+            <button>Subscribe now</button>
+           </div> 
+           
+         </div>
+        </div>  
+</body>
+</html>
