@@ -1,0 +1,12 @@
+
+In CSS Grid Layout, `grid-auto-rows` and `grid-auto-columns` are properties that define the size of implicitly created rows and columns when the number of rows or columns is not explicitly set in the grid container. These properties allow to specify the size of additional rows or columns that are created automatically based on the content.
+
+An example to illustrate the use of `grid-auto-rows` and `grid-auto-columns` has been given in a separate CSS file along with the output.
+
+In this example:
+
+- The grid container has an explicit definition for three columns with a width of 100px each using `grid-template-columns`.
+- The `grid-auto-rows` property is used to set the height of automatically created rows to 150px.
+- If you add more items than there are explicit rows in the grid, additional rows will be created automatically with a height of 150px each.
+
+One can adjust the values of `grid-auto-rows` and `grid-auto-columns` to suit the layout one desires for the implicitly created rows and columns in the grid.

@@ -1,0 +1,18 @@
+In CSS Grid Layout, `justify-items` and `justify-self` are two properties that control the horizontal alignment of grid items within their grid container. However, they are used at different levels of the grid structure.
+
+1. **justify-items:**
+   - This property is applied to the grid container and sets the default horizontal alignment for all grid items within the grid.
+   - It can have values like `start`, `end`, `center`, `stretch`, etc.
+
+2. **justify-self:**
+   - This property is applied to individual grid items and overrides the default horizontal alignment set by `justify-items` for that specific item.
+   - It can also have values like `start`, `end`, `center`, `stretch`, etc.
+
+An example to illustrate the difference between `justify-items` and `justify-self` has been provided along with this file.
+
+In the example:
+
+- The `justify-items: center;` property is applied to the grid container, setting the default horizontal alignment for all items to the center.
+- The `.item:nth-child(2)` selector targets the second grid item and overrides the default alignment using `justify-self: start;`, aligning it to the start (left).
+
+As a result, the first and third items are horizontally centered due to the default `justify-items` setting, while the second item is aligned to the start (left) individually using `justify-self`.
