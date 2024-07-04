@@ -1,0 +1,19 @@
+Sol:
+
+function calculateBMI(weight, height) {
+    // Calculate BMI
+    let bmi = weight / (height * height);
+    
+    return bmi;
+}
+
+// Example usage:
+let personWeight = 70; // Weight in kilograms
+let personHeight = 1.75; // Height in meters
+
+// Calculate BMI
+let bmi = calculateBMI(personWeight, personHeight);
+
+console.log("Weight (kg):", personWeight);
+console.log("Height (m):", personHeight);
+console.log("BMI:", bmi);

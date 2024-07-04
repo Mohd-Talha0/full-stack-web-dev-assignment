@@ -1,0 +1,44 @@
+Q5: Explain the importance of comments in JavaScript and provide examples of single-line and multi-line comments?
+Answer: 
+
+Comments are an essential part of writing clean, maintainable, and understandable code in JavaScript. They allow developers to include explanations or notes within the code without affecting its execution. Here’s an overview of the importance of comments and examples of how to use single-line and multi-line comments in JavaScript.
+
+- Importance of Comments
+--> Code Readability: Comments make the code more readable by explaining what specific sections or lines of code do. This is especially helpful for others who might be reading or maintaining the code in the future.
+--> Documentation: Comments serve as in-code documentation, providing context and insights into the logic, purpose, and functionality of the code.
+--> Debugging: Comments can be used to temporarily disable code without deleting it, which is useful during debugging or testing.
+--> Collaboration: In team environments, comments help team members understand each other’s code more quickly, facilitating better collaboration.
+--> Clarification: Comments can explain complex logic or algorithm choices, making it easier to understand why certain decisions were made.
+
+- Examples of Comments
+
+--> Single-Line Comments
+Single-line comments are used for brief notes or explanations. They start with // and continue to the end of the line.
+
+let age = 25; // This is a single-line comment explaining the age variable
+
+// Initialize the score to zero
+let score = 0;
+
+- Multi-Line Comments
+Multi-line comments are used for longer explanations or for commenting out blocks of code. They start with /* and end with */.
+
+/* 
+ * This is a multi-line comment
+ * explaining the function below.
+ * The function calculates the sum of two numbers.
+ */
+function sum(a, b) {
+    return a + b;
+}
+
+/*
+This is a block of code that is currently not needed,
+so it is commented out.
+
+let x = 10;
+let y = 20;
+let result = x * y;
+console.log(result);
+*/
+

@@ -1,0 +1,14 @@
+Solution:
+
+function checkVotingEligibility(age) {
+    let result = age < 18 ? "You cannot vote" : "You can vote";
+    return result;
+}
+
+// Example usage:
+let age1 = 20;
+let age2 = 16;
+
+console.log("Age:", age1, "-", checkVotingEligibility(age1)); // "Age: 20 - You can vote"
+console.log("Age:", age2, "-", checkVotingEligibility(age2)); // "Age: 16 - You cannot vote"
+

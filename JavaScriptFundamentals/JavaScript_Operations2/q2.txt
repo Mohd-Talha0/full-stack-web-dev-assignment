@@ -1,0 +1,16 @@
+solution:
+In JavaScript, the comma operator , serves two primary purposes: as a separator in variable declarations and function arguments, and as an operator that evaluates multiple expressions, returning the value of the last expression.
+
+Usage of Comma Operator:
+- Separation in Declarations and Arguments: The comma operator allows concise declaration of variables and passing of multiple arguments to functions.
+- Evaluation of Expressions: When used as an operator, it evaluates multiple expressions and returns the value of the last expression.
+- Usage in Loops: It's commonly used in loops and complex expressions to execute multiple statements in a single line.
+
+Example: 
+Variable Declarations:
+let a = 1, b = 2, c = 3;
+console.log(a, b, c); // Output: 1 2 3
+
+
+
+

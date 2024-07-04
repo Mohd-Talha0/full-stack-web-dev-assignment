@@ -1,0 +1,50 @@
+Q6: Explain the importance of choosing meaningful and descriptive variable names in JavaScript. Provide an example where using a clear identifier improves code readability.
+Answer: 
+
+Choosing meaningful and descriptive variable names in JavaScript is crucial for creating readable, maintainable, and self-documenting code. Here’s why it’s important and an example to illustrate the benefits:
+- Importance of Meaningful and Descriptive Variable Names
+--> Readability: Clear variable names make the code easier to read and understand. This helps developers quickly grasp the purpose and functionality of the code without needing additional comments or documentation.
+--> Maintenance: Code is often maintained by different developers over time. Descriptive names reduce the learning curve for new developers and make it easier to update and modify the code.
+--> Debugging: When debugging, meaningful variable names make it easier to identify where issues may be occurring and understand the flow of data.
+--> Collaboration: In a team environment, clear variable names facilitate better communication and collaboration among team members, making the codebase more accessible to everyone.
+--> Self-Documentation: Well-named variables serve as documentation, explaining what data they hold or what their role is within the code, reducing the need for excessive comments.
+
+- Example of Improved Code Readability
+
+--- Using Generic Variable Names
+
+function calc(a, b, c) {
+    return a * b + c;
+}
+
+let x = 5;
+let y = 10;
+let z = 2;
+
+let result = calc(x, y, z);
+console.log(result); // Output: 52
+
+In the example above, the function calc and variables a, b, c, x, y, and z are generic and do not provide any context about their purpose.
+
+--- Using Descriptive Variable Names:
+
+function calculateTotalPrice(pricePerItem, numberOfItems, shippingCost) {
+    return pricePerItem * numberOfItems + shippingCost;
+}
+
+let pricePerItem = 5;
+let numberOfItems = 10;
+let shippingCost = 2;
+
+let totalPrice = calculateTotalPrice(pricePerItem, numberOfItems, shippingCost);
+console.log(totalPrice); // Output: 52
+
+In this revised example, the function calculateTotalPrice and variables pricePerItem, numberOfItems, and shippingCost clearly describe their purpose. 
+
+
+
+
+
+
+
+

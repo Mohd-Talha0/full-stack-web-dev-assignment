@@ -1,0 +1,39 @@
+Q3 Differentiate between unary and binary operators in JavaScript. Give examples of each.
+Answer:
+In JavaScript, operators can be classified based on the number of operands they act upon. The two main classifications are unary operators and binary operators.
+
+1) Unary Operators
+Unary operators operate on a single operand. They perform various operations such as incrementing, decrementing, negating, or inverting the value of the operand.
+
+Examples of Unary Operators:
+- Unary Plus (+)
+let str = "5";
+let num = +str; // num is 5 (number)
+
+- Unary Negation (-)
+Negates the value of its operand.
+
+let x = 10;
+let y = -x; // y is -10
+
+- Increment (++)
+Increments the value of its operand by one.
+
+let count = 1;
+count++; // count is 2
+
+2) Binary Operators
+Binary operators operate on two operands. They perform a variety of operations including arithmetic, comparison, logical, and bitwise operations.
+
+Examples of Binary Operators:
+
+- Addition (+)
+Adds two operands.
+let sum = 5 + 3; // sum is 8
+
+- Modulus (%)
+Returns the remainder of the division of two operands.
+let remainder = 10 % 3; // remainder is 1
+
+
+

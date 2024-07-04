@@ -1,0 +1,15 @@
+Solution:
+
+function checkNumberType(number) {
+    let result = number > 0 ? "positive" : number < 0 ? "negative" : "zero";
+    return result;
+}
+
+// Example usage:
+let num1 = 10;
+let num2 = -7;
+let num3 = 0;
+
+console.log(num1 + " is " + checkNumberType(num1)); // "10 is positive"
+console.log(num2 + " is " + checkNumberType(num2)); // "-7 is negative"
+console.log(num3 + " is " + checkNumberType(num3)); // "0 is zero"
