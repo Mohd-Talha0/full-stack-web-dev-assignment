@@ -1,0 +1,18 @@
+Solution:
+
+function generateNumbers(start, end) {
+    let numbers = [];
+
+    for (let i = start; i <= end; i++) {
+        numbers.push(i); // Add the current number to the array
+    }
+
+    return numbers; // Return the array of generated numbers
+}
+
+// Example usage:
+let startNum = 3;
+let endNum = 8;
+
+let generatedNumbers = generateNumbers(startNum, endNum);
+console.log("Numbers between", startNum, "and", endNum, "are:", generatedNumbers);

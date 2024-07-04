@@ -1,0 +1,28 @@
+solution:
+
+function gradeStudents(marks) {
+    let grade;
+
+    if (marks > 90) {
+        grade = "A";
+    } else if (marks >= 70 && marks <= 90) {
+        grade = "B";
+    } else if (marks >= 50 && marks < 70) {
+        grade = "C";
+    } else {
+        grade = "F";
+    }
+
+    return grade;
+}
+
+// Example usage:
+let marks1 = 95;
+let marks2 = 80;
+let marks3 = 60;
+let marks4 = 40;
+
+console.log("Marks:", marks1, "- Grade:", gradeStudents(marks1)); // Marks: 95 - Grade: A
+console.log("Marks:", marks2, "- Grade:", gradeStudents(marks2)); // Marks: 80 - Grade: B
+console.log("Marks:", marks3, "- Grade:", gradeStudents(marks3)); // Marks: 60 - Grade: C
+console.log("Marks:", marks4, "- Grade:", gradeStudents(marks4)); // Marks: 40 - Grade: F
